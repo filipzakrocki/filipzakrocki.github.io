@@ -46,17 +46,17 @@ h1.display-4 {
 	text-align: center;
 	color: rgba(0, 0, 0, 0.5);
 	margin: 0 10px;
+    padding: 5 20px;
+    letter-spacing: 2px;
 }
 
 #topNav .nav-link:hover {
-	color: #ff9999;
+	text-shadow: 0 0 .65px #424040, 0 0 .65px #424040;
 	transition: 0.5s;
 }
 
 #topNav .nav-link.highlight-link {
-/*    color: black;*/
-    font-weight: 700;
-/*    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);*/
+    text-shadow: 0 0 .65px #424040, 0 0 .65px #424040;
 }
 
 button.navbar-toggler{

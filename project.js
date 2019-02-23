@@ -3,6 +3,7 @@
 $('#logo').on('click', function() {
     $('.menus').addClass('inactive');
     $('#main').removeClass('inactive').addClass('active');
+    $('.nav-link').removeClass('highlight-link');
     
 });
 
@@ -20,9 +21,9 @@ $('#projectsLink').on('click', function() {
     $(this).toggleClass('highlight-link');
 });
 
-$('#contactMeLink').on('click', function() {
-    $('.menus').addClass('inactive');
-    $('#contactMe').removeClass('inactive').addClass('active');
-    $('.nav-link').removeClass('highlight-link');
-    $(this).toggleClass('highlight-link');
-});
+//$('#contactMeLink').on('click', function() {
+//    $('.menus').addClass('inactive');
+//    $('#contactMe').removeClass('inactive').addClass('active');
+//    $('.nav-link').removeClass('highlight-link');
+//    $(this).toggleClass('highlight-link');
+//});
