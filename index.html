@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Filip Zakrocki - Webpage</title>
-
-
-	<!-- Bootstrap 4.1.2 -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
-	<!-- Font Awesome 5.1.1 -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
-
-	<link rel="stylesheet" type="text/css" href="project.css">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  
+  <title>Filip Zakrocki's Landing Page</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
-
-<!-- Top Navbar -->
+<!--
+<nav class="navbar">
+  <div class="brand">Filip<span class="lastName">Zakrocki</span> landing<span class="lastName">Page</span></div>
+</nav>
+-->
+    
 <nav id="topNav" class="navbar navbar-expand-lg navbar-light">
 	<div class="container">
 	<ul id="logoUL">
-  	    <a class="navbar-brand" href="#"><img id="logo" src="assets\img\logos\fz.png"></a>
+  	    <a class="navbar-brand" href="#"><img id="logo" src="assets/logos/fz.png"></a>
   	</ul>
   	<!-- Hamburger -->
   <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,147 +32,140 @@
   <div class="collapse navbar-collapse" id="navbarToggler">
     <ul id="menu" class="navbar-nav ml-auto">
       <li  class="nav-item">
-        <a id="aboutLink" class="nav-link" href="#">About <span class=""></span></a>
+        <a id="aboutLink" class="nav-link" href="#intro">About <span class=""></span></a>
       </li>
       <li  class="nav-item">
-        <a id="projectsLink" class="nav-link" href="#">Projects</a>
+        <a id="projectsLink" class="nav-link" href="#projects">Projects</a>
       </li>
-<!--
-      <li  class="nav-item">
-        <a id="contactMeLink" class="nav-link" href="#">Email Me</a>
-      </li>
--->
+
     </ul>
   </div>
   </div>
 </nav>
 
+<header>
+  <div class="headshot-wrapper">
+    <img class="headshot img-fluid" src="assets/icons/morda.jpg" alt="assets/morda.jpg">
+    <h1 class="name">Filip Zakrocki</h1>
+  </div>
+</header>
 
-<!-- Introduction-jumbotron -->
-<div id="main" class="container menus active">
-	<div class="row">
-		<div class="col-lg-12">
-		  	<h1 class="display-4">Welcome to my homepage!</h1>
-		  	<p class="lead">This is my valiant attempt to learn and practice web-development
-		  	</p>
-		  	<hr id="breakLine">
-		  	<p>I will gradually expand it with the new things I learn along the way</p>
-		</div>
-	</div>
-</div>
+<section id='intro' class="intro">
+  <div class="container">
+    <div class="media-object">
+      <div class="icon-left">
+        <img class="icon img" src="assets/icons/cork.jpg" alt="cork">
+      </div>
+      <div class="blurb-wrapper-right">
+        <h3 class="blurb-header">Quick Intro</h3>
+        <div class="blurb-info">
+          Hello, my name is Filip. I am a 30 year old Polish guy currently residing in Cork, Ireland. I am aspiring to become a front-end developer by learning different technologies. This is my landing page I will use to gather my projects and use as portfolio.
+        </div>
+      </div>
+    </div>
+    <div class="media-object">
+      <div class="icon-right">
+        <img class="icon img" src="assets/icons/frontend.png" alt="frontend pic">
+      </div>
+      <div class="blurb-wrapper-left">
+        <h3 class="blurb-header">Skills</h3>
+        <div class="blurb-info">
+          When it comes to web development I am familair with HTML4, Javascript (ES5 and ES6), CSS (SASS+LESS), Bootstrap, jQuery, Node.js, git and Flexbox - I am constantly truing to expand my understanding of technologies and incorporate them in my work.
+        </div>
+      </div>
+      </div>
+    <div class="media-object">
+      <div class="icon-left">
+        <img class="icon img" src="assets/icons/jside.png" alt="cork">
+      </div>
+      <div class="blurb-wrapper-right">
+        <h3 class="blurb-header">Starting Up</h3>
+        <div class="blurb-info">
+          Everything I have learned - I learned myself through coding, countless Udemy courses and hours spent on Stack Overflow. Projects are hosted on Codepen.
+        </div>
+      </div>
+    </div>
+    <div class="quote-btn-wrapper">
+        
+            <a  href="mailto:zakrofil@gmail.com"><button class="quote-btn">Get in touch!</button></a>
+        
+    </div>
+  </div>
+</section>
 
-<!-- About section -->
-<div id="about" class="container menus inactive">
-		<div class="row">
-            
-			<div class="col-md-6">
-				<h1 class="display-4">About Section</h1>
-				<p class="lead">Hello, my name is Filip. I am a 30 year old Polish guy currently residing in Cork, Ireland. I am aspiring to become a front-end developer by learning different technologies. This is my project of sort which i will try to expand and enrich as I go.</p>
-                <div class='row'>
-                    <div class="col-sm-6">
-                        <p class="lead">Familiar with:
-                            <ul>
-                                <li> HTML5</li>
-                                <li> JavaScripts (ES5/ES6)</li>
-                                <li> CSS, SASS, LESS</li>
-                                <li> Bootstrap</li>
-                                <li> jQuery</li>
-                                <li> Node.js</li>
-                                <li> git</li>    
-                                <li> Flexbox</li>    
-                            </ul>
-                    </div>
-                    <div class="col-sm-1">
-                    </div>
-                    <div class="col-sm-5">
-                        <p class="lead">In progress:
-                            <ul>
-                                <li>React.js</li>
-                                <li>REST API</li>
-  
-                            </ul>
-                        <p>
-                    </div>
-			</div>
-            
-            
-			
-		</div>
-            <div class="col-md-6">
-				<img class="img-thumbnail img-fluid" id="photo" src="assets/img/photos/morda.jpg">
-			</div>
-	</div>
-</div>
-
-<!-- projects -->
-<div id="projects" class="container menus inactive">
-	<h1 class="display-4">Projects Gallery</h1>
-		<div class="row">
-			<div class="col-lg-3 col-md-4">
-				
-                <a href="https://codepen.io/sxerra/full/BVRJyG/" title="Color Game"><img class= "img-fluid projectPH frame" src="assets/img/projects/kolorki.PNG"></a>
-                
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/OdrJmR" title="BudgControl ES5"><img class= "img-fluid projectPH frame" src="assets\img\projects\BudgControl.PNG"></a>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>
-			<div class="col-lg-3 col-md-4">
-                <a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>
-			<div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>		
-			<div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>
-            <div class="col-lg-3 col-md-4">
-				<a href="https://codepen.io/sxerra/full/BVRJyG/"><img class= "img-fluid projectPH frame" src="assets\img\projects\placeholder.png"></a>
-			</div>		
-		</div>
-		
-	</div>
-
-
-
-<!-- Contact Form -->
-<!--
-<div id="contactMe" class="container menus inactive">
-	<div class="row">
-	<div class="col-12">
-		<div class="form-area">  
-			<form role="form">
-			<br style="clear:both">
-            <h1 id="h1contact" class="display-4" style="margin-bottom: 25px; text-align: center">Contact Me</h1>
-			<div class="form-group">
-				<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-			</div>
-            <div class="form-group">
-            <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="500" rows="3"></textarea>
-                <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
-            </div>
+<section id='projects' class="portfolio">
+  <div class="container">
+    <div class="section-header">
+      <h1 class="header">Projects so far</h1>
+    </div>
+    <div class="portfolio-wrapper">
+      <div class="portfolio-object">
+        <div class="portfolio-box">
+                <a href="https://codepen.io/sxerra/full/BVRJyG/" title="Color Game">
+                <img class= "img-fluid" src="assets/projects/kolorki.PNG">
+            </a>
+          </div>
+        <h4>Color game</h4>
+        <div class="portfolio-text">
+          Can you guess which color has been generated? 
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box">
+            <a href="https://codepen.io/sxerra/full/OdrJmR" title="BudgControl ES5"><img class= "img-fluid" src="assets/projects/BudgControl.PNG"></a>
+          </div>
+        <h4>BudgControl (ES5)</h4>
+        <div class="portfolio-text">
+          Simple app allowing you to manage your budget and check the percentage of each expense.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+      <div class="portfolio-object">
+        <div class="portfolio-box"><a href="#"><img class= "img-fluid" src="assets\projects\placeholder.png"></a></div>
+        <h4>Project</h4>
+        <div class="portfolio-text">
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
     
-		<button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-	</form>
-</div>
-</div>
-</div>
-</div>
--->
-
-
-
-
-
-<div>
+    <div>
 <ul id="botNav" class="nav fixed-bottom justify-content-center row">
 	<li class="nav-item">
     	<a id="fbLink"  class="nav-link active" href="https://www.facebook.com/filipzakrocki77">
@@ -196,18 +190,13 @@
 </ul>
 </div>
 
-<!-- jquery 3.3.1.min -->
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 
-<!-- Bootstrap 4.1.2 js-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap 4.1.2 js-->
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
-
-<!-- Project js -->
-<script type="text/javascript" src="project.js"></script>
-
-
+    
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
