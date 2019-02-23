@@ -31,9 +31,7 @@ html, body {
     font-size: 25px;
 }
 
-.lastName {
-    color: #66B6D3;
-}
+
 
 .topnav {
     display: flex;
@@ -68,8 +66,9 @@ img.headshot {
     width: 100%;
 }
 
-.intro, .contact-container {
-    background-color: #F1F3Fa;
+.intro {
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
     padding: 4rem 1rem;
 }
 
@@ -202,11 +201,9 @@ TOP NAV
 */
 
 #topNav {
-	/*background-color: #cc854f;*/
-	
-	background: #C9D6FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 
 	padding: 0;
     position: fixed; /* Set the navbar to fixed position */
@@ -227,7 +224,7 @@ TOP NAV
 	font-size: 25px;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.5);
-	margin: 0 10px;
+	margin: 10px 10px;
     padding: 5 20px;
     letter-spacing: 2px;
 }
@@ -248,10 +245,8 @@ button.navbar-toggler{
 /* BOT NAV */
 
 #botNav {
-	/*background-color: #cc854f;*/
-	background: #C9D6FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
 #botNav .nav-link {
@@ -277,7 +272,7 @@ button.navbar-toggler{
 }
 
 #mailLink:hover {
-	color: lavender;
+	color: black;
 	transition: 0.4s;
 }
 
