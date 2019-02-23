@@ -281,6 +281,11 @@ button.navbar-toggler{
 	transition: 0.4s;
 }
 
+#gitLink:hover {
+	color: purple;
+	transition: 0.4s;
+}
+
 
 
 
