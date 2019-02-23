@@ -67,8 +67,8 @@ img.headshot {
 }
 
 .intro {
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    background-color: #f6f6f6;
+background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
     padding: 4rem 1rem;
 }
 
@@ -202,8 +202,8 @@ TOP NAV
 
 #topNav {
 
-	background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+	background-color: #f6f6f6;
+background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
 
 	padding: 0;
     position: fixed; /* Set the navbar to fixed position */
@@ -245,8 +245,8 @@ button.navbar-toggler{
 /* BOT NAV */
 
 #botNav {
-	background-color: #ffffff;
-    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+	background-color: #f6f6f6;
+background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
 }
 
 #botNav .nav-link {
