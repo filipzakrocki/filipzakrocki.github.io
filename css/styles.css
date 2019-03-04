@@ -27,21 +27,6 @@ html, body {
     
 }
 
-.brand, .nav-link, a {
-    text-transform: uppercase;
-    color: #303137;
-}
-
-.brand {
-    font-size: 25px;
-}
-
-
-
-header {
-    display: flex;
-    justify-content: center;
-}
 
 .headshot-wrapper {
     flex-direction: column;
@@ -109,13 +94,13 @@ img.headshot {
     font-size: 18px;
 }
 
-.quote-btn-wrapper {
+.mail-btn-wrapper {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
 }
 
-.quote-btn {
+.mail-btn {
     color: #FFFFFF;
     background-color: #66B6D3;
     font-size: 18px;
