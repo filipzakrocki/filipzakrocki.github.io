@@ -23,6 +23,8 @@ html, body {
     margin: 0 auto;
     display: flex;
     padding: 10px;
+    border-bottom: gray 1px solid;
+    
 }
 
 .brand, .nav-link, a {
@@ -231,6 +233,7 @@ button.navbar-toggler{
 
 #botNav {
 	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    border-top: gray 1px solid;
 
 }
 
