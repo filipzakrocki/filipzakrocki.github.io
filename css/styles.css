@@ -34,9 +34,7 @@ html, body {
     font-size: 25px;
 }
 
-section{
-    max-width:100%;
-}
+
 
 header {
     display: flex;
