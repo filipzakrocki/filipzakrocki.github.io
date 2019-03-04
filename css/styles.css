@@ -8,6 +8,7 @@ html, body {
     font-size: 1rem;
     color: #303137;
     margin: 0;
+    overflow-x: hidden;
 }
 
 
@@ -21,7 +22,6 @@ html, body {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    
     padding: 10px;
 }
 
@@ -34,22 +34,8 @@ html, body {
     font-size: 25px;
 }
 
-
-
-.topnav {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.topnav .nav-link, a {
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.dropdownLink {
-    display: none;
+section{
+    max-width:100%;
 }
 
 header {
@@ -71,13 +57,6 @@ img.headshot {
 
 .intro {
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-
-
-
-
-
-
-
     padding: 4rem 1rem;
 }
 
@@ -163,7 +142,7 @@ img.headshot {
 }
 
 .portfolio-box {
-    min-width: 250px;
+    min-width: 200px;
     margin-bottom: 20px;
     background-color: #F1F3Fa;
     transition: .2s ease-in-out;
@@ -212,8 +191,7 @@ TOP NAV
 #topNav {
 
 	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-
-
+    max-width:100%;
 	padding: 0;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -259,6 +237,7 @@ button.navbar-toggler{
 }
 
 #botNav .nav-link {
+    max-width:100%;
 	font-size: 25px;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.5);
@@ -300,13 +279,13 @@ button.navbar-toggler{
 
     ul.topnav li.dropdownLink {
         display: block;
-        position: absolute;
+        position: relative;
         top: 15px;
         right: 20px;
     }
 
     ul.topnav.responsive li.dropdownLink {
-        position: absolute;
+        position: relative;
         top: 15px;
         right: 20px;
     }
