@@ -1,4 +1,5 @@
 html, body {
+    max-width:100%;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
@@ -11,14 +12,16 @@ html, body {
 
 
 
-.navbar, .container {
+.container {
     width: 100%;
     margin: 0 auto;
 }
 
 .navbar {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    
     padding: 10px;
 }
 
