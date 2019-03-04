@@ -144,41 +144,16 @@ img.headshot {
 
 .portfolio-box {
     min-width: 200px;
+    height: 142px;
     margin-bottom: 20px;
-    background-color: #F1F3Fa;
     transition: .2s ease-in-out;
-    border: #ee9ca7 solid 2px;
+    border: gray solid 2px;
+    overflow: hidden
 }
 
 .portfolio-box:hover {
     cursor: pointer;
     transform: scale(1.02);
-}
-
-form label {
-    font-size: 14px;
-}
-
-.form-group {
-    margin-bottom: .75rem;
-}
-
-.form-control {
-    max-width: 800px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #292b2c;
-    border-radius: 2px;
-    border: 1px solid #ced4da;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    background-clip: padding-box;
-    display: block;
-}
-
-.submit-btn-wrapper {
-    margin-top: 4rem;
 }
 
 /*
