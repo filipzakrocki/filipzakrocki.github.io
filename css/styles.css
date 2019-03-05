@@ -178,7 +178,7 @@ TOP NAV
 }
 
 #topNav .nav-link:hover {
-	text-shadow: 0 0 .65px #424040, 0 0 .65px #424040;
+	text-shadow: 0 0 .1px #424040, 0 0 .1px #424040;
 	transition: 0.5s;
 }
 
