@@ -85,11 +85,15 @@ img.headshot {
 .blurb-header {
     font-size: 24px;
     margin-top: 0;
+    text-align: center;
 }
 
 .blurb-info {
     color: #646B90;
     font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    
 }
 
 .mail-btn-wrapper {
@@ -132,6 +136,16 @@ img.headshot {
     transition: .2s ease-in-out;
     border: gray solid 2px;
     overflow: hidden
+}
+
+.portfolio-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.portfolio-text {
+    line-height: 1.4;
+    font-size: 14px;
 }
 
 .portfolio-box:hover {

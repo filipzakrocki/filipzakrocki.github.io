@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TdeeC by Filip Zakrocki</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Zakrocki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <section id="inputs">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="inputs-title">Initial Inputs</h4>
+                    <table id='inputs-table'>
+                        <tr>
+                            <td>Input start date to begin</td>
+                            <td><input class='date-initial-input' type="date"> <button id='reset'>X</button></td>
+                        </tr>
+                        <tr>
+                            <td>Starting Weight</td>
+                            <td>
+                                <input class='weight-initial-input' type="number">
+                                <span>kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Goal Weight</td>
+                            <td>
+                                <input class='goal-initial-input' type="number">
+                                <span>kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Goal Weight loss per week</td>
+                            <td>
+                                <input class='loss-initial-input' type="number">
+                                <span>kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Target Daily Deficit</td>
+                            <td>
+                                <input class='daily-kcal-needed' type="number" disabled='true'>
+                                <span>Kcal.</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class='col-6'>
+                    <h4 class="inputs-title">Current Body Stats</h4>
+                    <table>
+                        <tr>
+                            <td>Today's date is</td>
+                            <td><input class='date-current-input' disabled='true' type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Your current avg weight is</td>
+                            <td>
+                                <input class='avg-weight' disabled='true' type="number">
+                                <span>kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>You have lost</td>
+                            <td>
+                                <input class='total-loss' disabled='true' type="number">
+                                <span>kg</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your averaged TDEE is</td>
+                            <td>
+                                <input class='current-TDEE' disabled='true' type="number">
+                                <span>kcal</span>
+                            </td>
+                        </tr>
+                            
+                        <tr>
+                            <td>Weeks needed</td>
+                            <td>
+                                <input class='weeks-needed' disabled='true' type="number">
+                                <span>weeks</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>You will need to eat</td>
+                            <td>
+                                <input class='total-kcal-day' disabled='true' type="number">
+                                <span>kcal/day</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row table-headers">
+                <div class='col-1 table-header'> Week</div>
+                <div class='col-1 table-header'> Stats</div>
+                <div class='col-1 week-day table-header'> Mon.</div>
+                <div class='col-1 week-day table-header'> Tues.</div>
+                <div class='col-1 week-day table-header'> Wed.</div>
+                <div class='col-1 week-day table-header'> Thurs.</div>
+                <div class='col-1 week-day table-header'> Fri.</div>
+                <div class='col-1 week-day table-header'> Sat.</div>
+                <div class='col-1 week-day table-header'> Sun.</div>
+                <div class='col-1 table-header'> Avg.</div>
+                <div class='col-1 table-header'> ∆</div>
+                <div class='col-1 table-header'> TDEE</div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="data">
+        <div class="container">
+            <div class = 'weeks-table'>
+<!--
+                <div class="row input-headers">
+                    <div class='col-1'>
+                        <div class='text-label'>Week</div>
+                        <div class='text-label weekNumber'>#</div>
+                    </div>
+                    <div class='col-1'>
+                        <div class='text-label'>Kg</div>
+                        <div class='text-label'>kcal</div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div><input type="number"></div>
+                        <div><input type="number"></div>
+                    </div>
+                    <div class='col-1'>
+                        <div class='text-label'>AVG Kg</div>
+                        <div class='text-label'>AVG kcal</div>
+                    </div>
+                    <div class='col-1'>Kg ∆</div>
+                    <div class='col-1 text-label'> TDEE</div>
+                </div>
+-->
+            </div>
+            
+            <button class="add-week-btn">Start another week</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
