@@ -29,7 +29,7 @@ html, body {
 .headshot-wrapper {
     flex-direction: column;
     text-align: center;
-    padding: 6rem 0 3rem;
+    padding: 6rem 0 .5rem;
 }
 
 img.headshot {
@@ -37,6 +37,10 @@ img.headshot {
     max-width: 200px;
     width: 100%;
     border: 2px gray solid
+}
+
+.name {
+    margin: 20px auto;
 }
 
 .intro {
@@ -75,7 +79,8 @@ img.headshot {
 .icon {
     max-height: 200px;
     border-radius: 20%;
-    padding: 0 1.5rem;
+    margin: 0 1.5rem;
+    box-shadow: 0 5px 20px rgba(0,0,0,.6);
 }
 
 .blurb-wrapper {
@@ -135,7 +140,8 @@ img.headshot {
     margin-bottom: 20px;
     transition: .2s ease-in-out;
     border: gray solid 2px;
-    overflow: hidden
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,.6);
 }
 
 .portfolio-title {
