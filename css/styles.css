@@ -43,7 +43,7 @@ img.headshot {
     margin: 20px auto;
 }
 
-#intro {
+.intro {
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     padding: 4rem 1rem;
 }
@@ -113,8 +113,7 @@ img.headshot {
     border: none;
     padding: .8rem 4rem;
     border-radius: 3px;
-    box-shadow: 0 5px 20px rgba(0,0,0,.3);
-}
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);}
 
 .mail-btn:hover {
     cursor: pointer;
@@ -251,6 +250,10 @@ button.navbar-toggler{
 #gitLink:hover {
 	color: purple;
 	transition: 0.4s;
+}
+
+.skillsIcon {
+    font-size: 30px;
 }
 
 
