@@ -43,7 +43,7 @@ img.headshot {
     margin: 20px auto;
 }
 
-.intro {
+#intro {
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     padding: 4rem 1rem;
 }
@@ -78,9 +78,8 @@ img.headshot {
 
 .icon {
     max-height: 200px;
-    border-radius: 20%;
     margin: 0 1.5rem;
-    box-shadow: 0 5px 20px rgba(0,0,0,.6);
+    border: #303137 1px;
 }
 
 .blurb-wrapper {
@@ -115,6 +114,11 @@ img.headshot {
     padding: .8rem 4rem;
     border-radius: 3px;
     box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+
+.mail-btn:hover {
+    cursor: pointer;
+    transform: scale(1.02)
 }
 
 .section-header {
@@ -179,7 +183,7 @@ TOP NAV
 
 #logo {
 	height: 60px;
-    padding:
+
 }
 
 #logoUL {
@@ -234,8 +238,8 @@ button.navbar-toggler{
 	transition: 0.4s;
 }
 
-#instaLink:hover {
-	color: #cd486b;
+#linkedinLink:hover {
+	color: #00a0dc;
 	transition: 0.4s;
 }
 
