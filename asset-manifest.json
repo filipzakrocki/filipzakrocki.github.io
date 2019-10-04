@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa41d3fc.chunk.css",
+    "main.css": "/static/css/main.c92326a8.chunk.css",
     "main.js": "/static/js/main.f374f0c3.chunk.js",
     "main.js.map": "/static/js/main.f374f0c3.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.091e5b4e.js",
@@ -8,9 +8,9 @@
     "static/js/2.71fdf7e5.chunk.js": "/static/js/2.71fdf7e5.chunk.js",
     "static/js/2.71fdf7e5.chunk.js.map": "/static/js/2.71fdf7e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.753bd299c1e6c5c62c5ad26cb4a240d4.js": "/precache-manifest.753bd299c1e6c5c62c5ad26cb4a240d4.js",
+    "precache-manifest.509f6f049c113d7a57d92b6e6e165eda.js": "/precache-manifest.509f6f049c113d7a57d92b6e6e165eda.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fa41d3fc.chunk.css.map": "/static/css/main.fa41d3fc.chunk.css.map",
+    "static/css/main.c92326a8.chunk.css.map": "/static/css/main.c92326a8.chunk.css.map",
     "static/media/BudgControl.PNG": "/static/media/BudgControl.f058f145.PNG",
     "static/media/Section.css": "/static/media/skills-bg.b17134b4.jpg",
     "static/media/burgerBuilder.png": "/static/media/burgerBuilder.5cfa1b0f.png",
