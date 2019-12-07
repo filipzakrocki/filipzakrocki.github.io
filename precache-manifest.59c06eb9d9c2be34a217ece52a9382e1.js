@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31112c6933fbffe4b66b698305f6ab5e",
+    "revision": "08bafa3e66546589763525c66dee2335",
     "url": "/index.html"
   },
   {
-    "revision": "e397cfc72986d7489ccb",
-    "url": "/static/css/main.7a7b1f0a.chunk.css"
+    "revision": "0035bdc429c217acea41",
+    "url": "/static/css/main.02337174.chunk.css"
   },
   {
-    "revision": "eaf918546c3d8fcc632c",
-    "url": "/static/js/2.71fdf7e5.chunk.js"
+    "revision": "e6faa91e6f5b48a647c8",
+    "url": "/static/js/2.173b1b9b.chunk.js"
   },
   {
-    "revision": "e397cfc72986d7489ccb",
-    "url": "/static/js/main.86ed137c.chunk.js"
+    "revision": "0035bdc429c217acea41",
+    "url": "/static/js/main.316ba563.chunk.js"
   },
   {
     "revision": "c1f27362919a86da6bd5",
@@ -40,8 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fz.86fb296a.png"
   },
   {
-    "revision": "a904da7ae34769ed1a84cb4c89edff28",
-    "url": "/static/media/kolorki.a904da7a.PNG"
+    "revision": "66f809f7261623153ca034e49426da6d",
+    "url": "/static/media/hirehive.66f809f7.PNG"
+  },
+  {
+    "revision": "da4838523f460b2669c74e3a9f78c997",
+    "url": "/static/media/pokedex.da483852.PNG"
   },
   {
     "revision": "1f2c8d3483aa2c449cfd31dc4df82377",
